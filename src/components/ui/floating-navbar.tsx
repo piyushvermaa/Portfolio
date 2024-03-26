@@ -72,7 +72,7 @@ export const FloatingNav = ({
             <span className="hidden sm:block text-sm">{navItem.name}</span>
           </Link>
         ))}
-        <button className="border text-sm font-medium relative border-black text-black dark:text-white px-4 py-1 rounded-full">
+        <button className="border text-sm font-medium relative border-black text-black dark:text-white px-4 rounded-full">
           <span></span>
         </button>
       </motion.div>
