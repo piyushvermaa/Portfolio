@@ -9,14 +9,14 @@ import { BackgroundBeams } from "./ui/background-beams";
 function HeroSpotlight() {
   return (
     <div className="bg-black">
-      <div className="h-[30rem]  rounded-md  md:items-center md:justify-center  antialiased   overflow-hidden  w-full dark:bg-black mb-5">
+      <div className="h-fit  rounded-md  md:items-center md:justify-center  antialiased   overflow-hidden  w-full dark:bg-black mb-5">
         <Spotlight
           className="-top-50 left-0 md:left-60 md:-top-20"
           fill="white"
         />
         <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0  mt-20">
-          <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-400 bg-opacity-40 text-[#dedede]">
-            Piyush Verma <br />
+          <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-400 bg-opacity-40 text-[#dedede] ">
+            <span className="text-upside-down">Piyush Verma</span> <br />
             <Typewriter />
           </h1>
           <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
@@ -27,7 +27,7 @@ function HeroSpotlight() {
           </p>
         </div>
       </div>
-      <div className="mt-[-15rem] ">
+      {/* <div className="mt-[-15rem] ">
         <ContainerScroll titleComponent={<></>}>
           <Image
             src={`/hero.jpg`}
@@ -38,7 +38,7 @@ function HeroSpotlight() {
             draggable={false}
           />
         </ContainerScroll>
-      </div>
+      </div> */}
       <BackgroundBeams />
     </div>
   );
