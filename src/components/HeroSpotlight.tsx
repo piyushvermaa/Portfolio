@@ -5,6 +5,7 @@ import { ContainerScroll } from "./ui/container-scroll-animation";
 import Image from "next/image";
 import { Typewriter } from "./Typewritter";
 import { BackgroundBeams } from "./ui/background-beams";
+import Herodesc from "./Herodesc";
 
 
 function HeroSpotlight() {
@@ -21,10 +22,7 @@ function HeroSpotlight() {
             <Typewriter />
           </h1>
           <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
-            Welcome to my portfolio! I'm Piyush, a dedicated BTech student at
-            GLA University with a fervent passion for coding, web development,
-            and competitive programming Explore my projects and achievements to witness
-            my commitment to excellence in the world of technology.
+            <Herodesc/>
           </p>
         </div>
       </div>
