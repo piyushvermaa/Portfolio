@@ -3,6 +3,7 @@ import Experience from "@/components/Experience";
 import HeroSpotlight from "@/components/HeroSpotlight";
 import Profiles from "@/components/Profiles";
 import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
     <Profiles/>
     <Experience/>
     <Projects/>
+    <Skills/>
     </div>
   );
 }

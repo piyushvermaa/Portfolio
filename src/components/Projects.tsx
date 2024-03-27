@@ -57,6 +57,7 @@ const Projects = () => {
 
   return (
     <div className="mt-10 pt-10 flex flex-col justify-center">
+      
         <span className="text-4xl md:text-7xl  text-[#7e3bc6] text-center font-extrabold m-4 text-upside-down">
         Projects
       </span>
