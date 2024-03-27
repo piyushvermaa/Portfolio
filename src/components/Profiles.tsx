@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import { Tabs } from "./ui/tabs";
+import { motion } from "framer-motion";
+import { LampContainer } from "./ui/lamp";
 
 const Profiles = () => {
   const tabs = [
@@ -73,6 +75,7 @@ const Profiles = () => {
 
   return (
     <>
+        
       <div className="h-[25rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-40 bg-black m-2">
         <Tabs tabs={tabs} />
       </div>

@@ -6,6 +6,7 @@ import Image from "next/image";
 import { Typewriter } from "./Typewritter";
 import { BackgroundBeams } from "./ui/background-beams";
 
+
 function HeroSpotlight() {
   return (
     <div className="bg-black">
