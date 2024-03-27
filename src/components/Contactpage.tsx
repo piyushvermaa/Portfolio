@@ -8,7 +8,7 @@ const Contactpage = () => {
       <div className=' z-20'>
         <Contactsection/>
       </div>
-      <div className=' w-[50rem] mt-[-40rem] md:mt-[-10rem]'>
+      <div className=' w-[50rem] mt-[-10rem] md:mt-[-10rem]'>
         <Globe/>
       </div>
     </div>
