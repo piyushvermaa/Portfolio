@@ -35,12 +35,12 @@ const Skills = () => {
         <Skillicon imgurl={"/git.png"} />
         <Skillicon imgurl={"/github-icon.jpeg"} />
       </div>
-      <div className="flex gap-3 flex-wrap justify-center ">
+      <div className="flex gap-3 flex-wrap justify-center z-20">
         <Skillicon imgurl={"/vscode.png"} />
         <Skillicon imgurl={"/sublime.png"} />
         <Skillicon imgurl={"/docker.png"} />
       </div>
-      <div className="flex gap-3 flex-wrap justify-center ">
+      <div className="flex gap-3 flex-wrap justify-center  z-20">
         <Skillicon imgurl={"/mysql.png"} />
       </div>
     </div>

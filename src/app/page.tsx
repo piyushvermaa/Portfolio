@@ -1,4 +1,5 @@
 "use client"
+import Contactpage from "@/components/Contactpage";
 import Experience from "@/components/Experience";
 import HeroSpotlight from "@/components/HeroSpotlight";
 import Profiles from "@/components/Profiles";
@@ -14,6 +15,7 @@ export default function Home() {
     <Experience/>
     <Projects/>
     <Skills/>
+    <Contactpage/>
     </div>
   );
 }
