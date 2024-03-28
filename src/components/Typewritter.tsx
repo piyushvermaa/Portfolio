@@ -19,9 +19,9 @@ export function Typewriter() {
   ];
   return (
     
-      <div className="flex justify-center">
+      <span className="flex justify-center">
       <TypewriterEffectSmooth words={words} />
-      </div>
+      </span>
       
     
   );

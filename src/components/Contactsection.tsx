@@ -15,9 +15,9 @@ function Contactsection() {
         console.log("Form submitted");
     };
   return (
-    <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
+    <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black ">
       <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
-        Hello,
+        Hello,👋
       </h2>
       <p className="text-neutral-600 text-sm max-w-sm mt-2 dark:text-neutral-300">
         Connect with me!
@@ -40,7 +40,7 @@ function Contactsection() {
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="message">Message</Label>
-          <Input id="message" placeholder="Let me know, How i can help you?" type="text" />
+          <Input id="message" placeholder="Let me know, How can i help you?" type="text" />
         </LabelInputContainer>
  
         <button

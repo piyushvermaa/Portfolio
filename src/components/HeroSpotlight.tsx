@@ -1,7 +1,6 @@
 import React from "react";
 import { cn } from "@/utils/cn";
 import { Spotlight } from "./ui/Spotlight";
-import { ContainerScroll } from "./ui/container-scroll-animation";
 import Image from "next/image";
 import { Typewriter } from "./Typewritter";
 import { BackgroundBeams } from "./ui/background-beams";
@@ -26,18 +25,7 @@ function HeroSpotlight() {
           </p>
         </div>
       </div>
-      {/* <div className="mt-[-15rem] ">
-        <ContainerScroll titleComponent={<></>}>
-          <Image
-            src={`/hero.jpg`}
-            alt="hero"
-            height={720}
-            width={1400}
-            className="mx-auto rounded-2xl object-cover h-full "
-            draggable={false}
-          />
-        </ContainerScroll>
-      </div> */}
+      
       <BackgroundBeams />
     </div>
   );
